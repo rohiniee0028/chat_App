@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+Here’s a concise list of most frequently asked React.js interview questions
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+✅Beginner-Level Questions
+ 
+1.    What is React?
+2.    What are the key features of React?
+3.    What is JSX?
+4.    What is the Virtual DOM?
+5.    What are components in React?
+6.    What is the difference between functional and class components?
+7.    What are props in React?
+8.    What is state in React?
+9.    What is the difference between state and props?
+10. What are React hooks?
 
-## Available Scripts
+✅Intermediate-Level Questions
 
-In the project directory, you can run:
+1.    What is the purpose of useEffect?
+2.    What are keys in React, and why are they important?
+3.    What is the difference between controlled and uncontrolled components?
+4.    What is React Router?
+5.    What is the context API?
+6.    What is Redux, and why is it used?
+7.    What is the difference between useState and useReducer?
+8.    What is prop drilling, and how can you avoid it?
+9.    What is the significance of React.Fragment?
+10. What is the difference between componentDidMount and useEffect?
 
-### `npm start`
+✅Advanced-Level Questions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1.    What are higher-order components (HOCs)?
+2.    What are render props?
+3.    What is code splitting in React?
+4.    What are error boundaries in React?
+5.    What is the difference between useMemo and useCallback?
+6.    How does React handle performance optimization?
+7.    What is the difference between React.PureComponent and React.Component?
+8.    What is server-side rendering (SSR) in React?
+9.    What is the difference between createElement and cloneElement?
+10. How do you test React components?
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✅Coding and Practical Questions
 
-### `npm test`
+1. Create a simple counter component using useState.
+2. Fetch data from an API and display it using useEffect.
+3. Implement a search filter for a list of items.
+4. Write a higher-order component (HOC) to log component props.
+5. Create a form with validation using controlled components.
+6. Implement routing using React Router.
+7. Use the Context API to share a theme across the application.
+8. Optimize a component using React.memo or useMemo.
+9. Write a custom hook to fetch data.
+10. Implement a Redux store and connect it to a React component.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+✅Problem-Solving Questions
 
-### `npm run build`
+1. How do you debug a React application?
+2. How do you handle performance issues in a React app?
+3. What challenges have you faced while working with React, and how did you solve them?
+4. How do you ensure code quality in a React project?
+5. Explain how you would implement pagination in a React app.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+flow-chart of chat app: 
+* Login page (landing page)
+  
+1. welcome page
+2. chat area
+3. online users
+4. Available groups
+5. create group
