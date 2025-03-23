@@ -50,7 +50,7 @@ const SideBar = () => {
                         <AccountCircleIcon className={"icon" + (lightTheme ? "" : " dark")} />
                     </IconButton>
                 </div>
-                <div>
+                <div className='other-icons'>
                     <IconButton onClick={() => navigate('users')}>
                         <PersonAddIcon className={"icon" + (lightTheme ? "" : " dark")} />
                     </IconButton>
