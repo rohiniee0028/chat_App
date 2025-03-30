@@ -25,10 +25,10 @@ const Groups = () => {
       >
         <div className={"ug-header" + (lightTheme ? "" : " dark")}>
           <img src={logo} style={{ height: '2rem', width: '2rem', marginLeft: '10px' }} />
-          <p className={"ug-title" + (lightTheme ? "" : " dark")}>Available Groups</p>
+          <p className={"ug-title" + (lightTheme ? "" : " dark")}>AvailabclassName={(lightTheme ? "" : " dark")}le Groups</p>
         </div>
         <div className={'sb-search' + (lightTheme ? "" : " dark")}>
-          <IconButton className={(lightTheme ? "" : " dark")}>
+          <IconButton >
             <SearchIcon />
           </IconButton>
           <input placeholder='Search' className={'search-box' + (lightTheme ? "" : " dark")} />

@@ -7,6 +7,7 @@ import MessageOthers from './MessageOthers';
 import MessageSelf from './MessageSelf';
 
 const ChatArea = ({ props }) => {
+
     const [conversations, setConversations] = useState([
         {
             name: 'Test#1',
